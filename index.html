@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tea-project.com</title>
+    <!-- google font added here  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <!-- font awesome link  -->
+    <script src="https://kit.fontawesome.com/0b03aebe0f.js" crossorigin="anonymous"></script>
+    <!-- tailwind css cnd link  and customize config -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+            extend: {
+                colors: {
+                        clifford: '#da373d',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+    <main class="max-w-screen-xl mx-auto px-5 md:px-10 ld:px-16">
+        <header class="md:flex pt-10 mb-20">
+            <!-- text content  -->
+            <div>
+                <h1 class=" text-4xl md:text-6xl lg:text-7xl font-extrabold">It's good <br> tea time at The <br> Tea House</h1>
+                <p class="text-xl font-medium">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
+                <button class="py-4 px-5 rounded-lg text-xl font-bold bg-gradient-to-r from-orange-500 to-red-500 text-white">
+                    Explore More 
+                    <i class="fa-solid fa-location-arrow hover:rotate-45"></i>
+                </button>
+            </div>
+
+            <!-- imgage content  -->
+            <div class="relative">
+                <div>
+                    <img class="w-full" src="./images/banner.png" alt="photo">
+                </div>
+                <!-- card content  -->
+                <div class="flex items-center gap-3 bg-white py-2 px-3  md:py-3 md:px-4 md:py-4 md:px-5 shadow-lg absolute  bottom-10 md:bottom-20 left-10">
+                    <i class="fa-solid fa-star text-3xl text-amber-500"></i>
+                    <div>
+                        <h2 class="text-3xl font-extrabold">5.00</h2>
+                        <p class="font-semibold text-slate-500">Trust Pilot Ratings</p>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </main>
+</body>
+</html>
+
+
+
+
+
+
+    <!-- .manrope-<uniquifier> {
+      font-family: "Manrope", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: <weight>;
+      font-style: normal;
+    } -->
