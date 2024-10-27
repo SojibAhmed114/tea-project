@@ -16,15 +16,18 @@
         tailwind.config = {
             theme: {
             extend: {
-                colors: {
-                        clifford: '#da373d',
+                    colors: {
+                            clifford: '#da373d',
+                        },
+                    fontFamily: {
+                        manrope: ['Manrope', 'sans-serif'],
                     }
                 }
             }
         }
     </script>
 </head>
-<body>
+<body class="font-manrope">
     <main class="max-w-screen-xl mx-auto px-5 md:px-10 ld:px-16">
         <header class="md:flex gap-5 pt-10 mb-20">
             <!-- text content  -->
@@ -238,9 +241,3 @@
 
 
 
-    <!-- .manrope-<uniquifier> {
-      font-family: "Manrope", sans-serif;
-      font-optical-sizing: auto;
-      font-weight: <weight>;
-      font-style: normal;
-    } -->
